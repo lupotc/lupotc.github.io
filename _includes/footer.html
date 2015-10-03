@@ -1,0 +1,11 @@
+<div class="region-footer">
+  <div id="block-menu-secondary-menu">
+    <div class="content">
+      <ul class="menu">
+        {% for menu in site.t[page.lang]['menu'] %}
+          <li><a href="{{menu[1].url}}">{{menu[1].title}}</a></li>
+        {% endfor %}
+       </ul>
+    </div>
+  </div>
+</div>

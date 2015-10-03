@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="body-wrapper">
+      <div class="body-inner">
+        <div class="wrapper">
+          {% include header.html %}
+          <div class="main">
+            <div class="region-content {% if page.block_contact %}region-short{% endif %}">
+              {{ content }}
+            </div>
+            {% if page.block_contact %}
+              <div class="region-sidebar-second">
+                 {% include contact.html %}
+              </div>
+            {% endif %}
+          </div>
+          {% include footer.html %}
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

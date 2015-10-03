@@ -1,0 +1,115 @@
+html { height: 100%; padding-bottom: 1px; font-size: 100%; }
+body { padding: 0; background: #232e34; color: #94b5c2; font: .75em/1.5 "Georgia", serif; }
+* { margin: 0; padding: 0; }
+p, ul, ol, dl { padding-bottom: 1em; }
+ul, ol { margin-left: 0; padding-left: 2em; }
+h1, h2, h3, h4, h5, h6 { font-size: 1em; }
+textarea, input, select, option, optgroup, button { font: 1em "Georgia", serif; }
+img { border: none; vertical-align: bottom; }
+a { color: #313232; text-decoration: none; outline: none; cursor: pointer; }
+a:hover { text-decoration: underline; }
+button, input.radio, input.checkbox, label, select { cursor: pointer; }
+input, textarea { background: #fff; border: 1px solid #e2e3ea; border-top: 1px solid #abadb3; }
+
+.left { float: left !important; }
+.right { float: right !important; }
+
+.text-left { text-align: left !important; }
+.text-center { text-align: center !important; }
+.text-right { text-align: right !important; }
+
+.no-margin { padding-bottom: 0 !important; }
+.margin { padding-bottom: 1em !important; }
+
+.float-wrapper { overflow: hidden; }
+.float-center { position: relative; left: 50%; float: left; }
+.float-center-inner { position: relative; left: -50%; float: left; }
+
+/*
+ * layouts
+ */
+h2 { margin-bottom: 30px; padding-left: 5px; background: #36535e; color: #cbe4ec; font-size: 1.8333em; }
+h3 { color: #b8ced6; font-size: 1.3333em; }
+.body-wrapper { background: #232e34 url("../images/bg.png") repeat-x 0 0; }
+.body-inner { position: relative; width: 900px; margin: 0 auto; padding: 75px 110px 50px; background: transparent url("../images/bg-body.jpg") no-repeat 0 0; }
+.wrapper { border: 1px solid #568495; background: #2b424a; }
+.button { float: left; padding-left: 28px; background: transparent url("../images/button.png") no-repeat 0 -72px; color: #000; }
+.button span, .button input { float: left; width: auto !important; padding-right: 28px; border: none; background: transparent url("../images/button.png") no-repeat 100% 0; line-height: 36px; }
+.button input { overflow: visible; height: 36px; padding: 10px 28px 10px 0; line-height: 1; }
+.button:hover { background-position: 0 -108px; color: #e9f3f7; text-decoration: none; }
+.button:hover span, .button:hover input { background-position: 100% -36px; color: #fff; cursor: pointer; }
+
+/*
+ * header
+ */
+.region-header { overflow: hidden; background: transparent url("../images/menu.png") repeat-x 0 0; }
+.region-header ul { overflow: hidden; padding: 0; list-style: none; }
+.region-header ul li { float: left; margin: 0; padding: 0; background: transparent url("../images/menu-separator.png") no-repeat 0 50%; list-style: none; }
+.region-header ul li a { float: left; padding: 0 15px; color: #c5d0d8; line-height: 25px; }
+.region-header ul.menu { float: left; margin-left: -1px; }
+.region-header ul.menu li { padding: 0; }
+.region-header ul.menu li a:hover,
+.region-header ul.menu li a.active { background: #597282; text-decoration: none; color: #ecf2f4; }
+.region-header ul.language-switcher-locale-url { float: right; margin-right: -1px; font-size: .9167em; text-transform: lowercase; }
+.region-header ul.language-switcher-locale-url li { padding: 0 1px 0 0; background-position: 100% 50%; }
+.region-header ul.language-switcher-locale-url li a { padding-left: 25px; }
+.region-header ul.language-switcher-locale-url li.pl a { background: transparent url("../images/flag-pl.png") no-repeat 0 50%; }
+.region-header ul.language-switcher-locale-url li.en a { background: transparent url("../images/flag-en.png") no-repeat 0 50%; }
+
+/*
+ * logo
+ */
+h1.logo { display: block; }
+h1.logo a { overflow: hidden; display: block; width: 100%; height: 150px; background: transparent url("../images/header.jpg") no-repeat 0 0; text-indent: -99em; }
+
+/*
+ * content
+ */
+.main { overflow: hidden; padding: 15px 15px 40px; }
+.main .region-content { float: left; width: 100%; }
+.main .region-content.region-short { width: 645px; }
+.main .region-content a { color: #79BACD;  }
+.main .region-content .button { color: #000;  }
+.node-type-webform .main .region-content { width: 870px; }
+.main .region-sidebar-second { float: right; width: 202px; }
+
+/* block contact */
+.region-sidebar-second .block-wrapper { margin-top: -2px; padding-bottom: 10px; background: transparent url("../images/box.png") no-repeat 0 100%; }
+.region-sidebar-second .block { padding: 8px 20px 0; background: transparent url("../images/box.png") no-repeat 0 0; color: #8aafbc; line-height: 1.25em; }
+.region-sidebar-second .block h4 { width: 144px; margin-left: -12px; padding: 0 0 1em 40px; background: transparent url("../images/box-header.png") no-repeat 0 0; color: #000; line-height: 30px; }
+.region-sidebar-second .block a,
+.links a,
+.messages a,
+.webform-client-form a { color: #79bacd; text-decoration: underline; }
+.node-type-page .region-sidebar-second .block a:hover,
+.links a:hover,
+.messages a:hover,
+.webform-client-form a:hover { text-decoration: none; }
+
+/* form contact */
+.node-type-webform .field-type-text-with-summary { overflow: hidden; }
+.node-type-webform .field-type-text-with-summary p { float: left; width: 235px; padding-bottom: 20px; }
+.node-type-webform .field-type-text-with-summary a { color: #79bacd; text-decoration: underline; }
+.node-type-webform .field-type-text-with-summary a:hover { text-decoration: none; }
+.node-type-webform form { clear: both; float: left; width: 400px; }
+.node-type-webform form label { display: block; }
+.node-type-webform form label span.form-required { color: #94b5c2; }
+.node-type-webform form input[type=text] { width: 250px; padding: 3px 5px; }
+.node-type-webform form textarea { width: 400px; height: 150px; padding: 3px 5px; }
+.node-type-webform form .error { border: 1px solid #D77 !important; }
+
+#map { float: right; width: 400px; height: 350px; color: #0e2025; }
+.messages { margin-bottom: 1em; }
+.messages ul { padding-top: 1em; }
+
+/*
+ * footer
+ */
+.region-footer { overflow: hidden; background: #4d6b74 url("../images/footer.png") repeat-x 0 0; font-size: .9167em; }
+.region-footer #block-menu-secondary-menu { position: relative; left: 50%; float: left; }
+.region-footer #block-menu-secondary-menu .content { position: relative; left: -50%; float: left; }
+.region-footer #block-menu-secondary-menu ul { overflow: hidden; margin: 0; padding: 10px 0; list-style: none; }
+.region-footer #block-menu-secondary-menu ul li { float: left; margin: 0; padding: 0; list-style: none; }
+.region-footer #block-menu-secondary-menu ul li a { float: left; padding: 0 5px; background: transparent url("../images/footer-separator.png") no-repeat 0 50%; color: #0e2025; text-decoration: underline; }
+.region-footer #block-menu-secondary-menu ul li:first-child a { background: none; }
+.region-footer #block-menu-secondary-menu ul li a:hover { text-decoration: none; }

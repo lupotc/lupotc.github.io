@@ -1,0 +1,78 @@
+# Site settings
+title: LupoTC
+email: pieslak@lupotc.pl
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://lupotc.pl" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+include: ['_pages']
+
+defaults:
+  -
+    scope:
+      path: ''
+    values:
+      layout: 'default'
+      lang: 'pl'
+      block_contact: true
+  -
+    scope:
+      path: '_pages/pl'
+    values:
+      layout: 'default'
+  -
+    scope:
+      path: '_pages/en'
+    values:
+      lang: 'en'
+
+# Translation
+t:
+  pl:
+    block:
+      contact:
+        title: 'Kontakt'
+        url: '/kontakt/'
+        form: 'formularz kontaktowy'
+    logo:
+      url: '/'
+      title: 'Lupo Plast - skup i sprzedaż tworzyw sztucznych, przemiałów i odpadów'
+    menu:
+      home:
+        title: 'O firmie'
+        url: '/'
+      cooperation:
+        title: 'Współpracujemy'
+        url: '/wspolpracujemy/'
+      contact:
+        title: 'Kontakt'
+        url: '/kontakt/'
+    meta:
+      description: 'Firma Lupo Plast od wielu lat aktywnie działa na rynkach międzynarodowych i krajowym zajmując się na szeroką skalę skupem odpadów tworzyw sztucznych ich segregacją oraz ich przerobem na aglomeraty i przemiały.'
+      keywords: 'tworzywa sztuczne, przemiały, odpady, skup, sprzedaż, lupotc, lupo'
+      title: 'Lupo Plast - skup i sprzedaż tworzyw sztucznych, przemiałów i odpadów | Lupo Plast'
+  en:
+    block:
+      contact:
+        title: 'Contact'
+        url: '/en/contact/'
+        form: 'contact form'
+    logo:
+      url: '/en/'
+      title: 'Lupo Plast is in the bussines of reprocessing plastic polymers since 2002'
+    menu:
+      home:
+        title: 'About us'
+        url: '/en/'
+      cooperation:
+        title: 'Cooperation'
+        url: '/en/cooperation/'
+      contact:
+        title: 'Contact'
+        url: '/en/contact/'
+    meta:
+      description: 'Lupo Plast is in the bussines of reprocessing plastic polymers since 2002.'
+      keywords: 'plastics, recycling, polymers, plastic, buy, sell, lupotc, lupo'
+      title: 'Lupo Plast is in the bussines of reprocessing plastic polymers since 2002.'

@@ -1,0 +1,18 @@
+<div class="region-header">
+  <ul class="language-switcher-locale-url">
+    <li class="en"><a href="/en">English</a></li>
+    <li class="pl"><a href="/">Polski</a></li>
+  </ul>
+
+  <ul class="menu">
+    {% for menu in site.t[page.lang]['menu'] %}
+      <li><a {% if page.title  == menu[1].title %}class="active"{% endif %} href="{{menu[1].url}}">{{menu[1].title}}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+<h1 class="logo">
+  <a href="{{ site.t[page.lang]['logo']['url'] }}" title="{{ site.t[page.lang]['logo']['title'] }}">
+      <img src="/images/header.jpg" alt="{{ site.t[page.lang]['logo']['title'] }}" />
+    </a>
+</h1>
