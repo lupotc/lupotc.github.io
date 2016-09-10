@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ page.lang }}">
   {% include head.html %}
-  <body>
-    <div class="body-wrapper">
-      <div class="body-inner">
-        <div class="wrapper">
-          {% include header.html %}
-          <div class="main">
-            <div class="region-content {% if page.block_contact %}region-short{% endif %}">
-              {{ content }}
-            </div>
-            {% if page.block_contact %}
-              <div class="region-sidebar-second">
-                 {% include contact.html %}
-              </div>
-            {% endif %}
-          </div>
-          {% include footer.html %}
-        </div>
-      </div>
+  <body class="home page page-id-433 page-template-default custom-background transparent-header transparent-topbar en_CA pace-on pace-logo-3d wpb-js-composer js-comp-ver-4.11.2 vc_responsive">
+    {% include header.html %}
+    <div id="content" role="main">
+      {{ content }}
+      {% include footer.html %}
     </div>
+    <!-- Fixing the Back to top button -->
+    <a href="javascript:void(0)" class="go-top go-top-square go-top-mobile">
+      <i class="fa fa-angle-up"></i>
+    </a>
+
+    <script type='text/javascript' src='/javascripts/mediaelement-and-player.min.js'></script>
+    <script type='text/javascript' src='/javascripts/wp-mediaelement.min.js'></script>
+    <script type='text/javascript'>
+      /* <![CDATA[ */
+      var oxyThemeData = {"navbarScrolledPoint":"15","navbarHeight":"110","navbarScrolled":"90","siteLoader":"on","menuClose":"off","scrollFinishedMessage":"No more items to load.","hoverMenu":{"hoverActive":true,"hoverDelay":200,"hoverFadeDelay":200}};
+      var map756 = {"map_type":"ROADMAP","map_zoom":"17","map_style":"regular","map_scrollable":"on","marker_link":"http:\/\/lupo.mediahat.net\/wp-content\/uploads\/2016\/06\/android-chrome-48x48.png","marker":"show","auto_center":"1","latlng":["52.087392, 16.662592"],"center_latlng":"","label":["Lupo Plast"],"address":"","height":"400","extra_classes":"","margin_top":"0","margin_bottom":"0","scroll_animation":"none","scroll_animation_delay":"0","hidden_on_large":"off","hidden_on_medium":"off","hidden_on_small":"off","hidden_on_xsmall":"off","markerURL":"http:\/\/lupo.mediahat.net\/wp-content\/uploads\/2016\/06\/android-chrome-48x48.png"};
+      /* ]]> */
+    </script>
+    <script type='text/javascript' src='/javascripts/theme.min.js'></script>
+    <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?sensor=false'></script>
+    <script type='text/javascript' src='/javascripts/map.min.js'></script>
   </body>
 </html>
+

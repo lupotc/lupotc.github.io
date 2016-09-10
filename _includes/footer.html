@@ -1,11 +1,40 @@
-<div class="region-footer">
-  <div id="block-menu-secondary-menu">
-    <div class="content">
-      <ul class="menu">
-        {% for menu in site.t[page.lang]['menu'] %}
-          <li><a href="{{menu[1].url}}">{{menu[1].title}}</a></li>
+<footer id="footer" role="contentinfo">
+  <section class="section">
+    <div class="container">
+      <div class="row element-top-40 element-bottom-40 footer-columns-4">
+        {% for block in site.t[page.lang]['footer']['blocks'] %}
+          <div class="col-sm-3">
+            <div id="text-3" class="sidebar-widget widget_text">
+              <h3 class="sidebar-header">{{ block['title'] }}</h3>
+              <div class="textwidget">{{ block['body'] }}</div>
+            </div>
+          </div>
         {% endfor %}
-       </ul>
+
+        <div class="col-sm-3">
+          <div id="text-7" class="sidebar-widget  widget_text">
+            <h3 class="sidebar-header">E-mail</h3>
+            <div class="textwidget">
+              <p>
+                <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%70%69%65%73%6C%61%6B%40%6C%75%70%6F%74%63%2E%70%6C">pieslak(at)lupotc.pl</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+  </section>
+  <section class="section subfooter">
+    <div class="container">
+      <div class="row element-top-10 element-bottom-10 footer-columns-2">
+        <div class="col-sm-6 text-left">
+          <div id="text-6" class="sidebar-widget widget_text">
+            <div class="textwidget">
+              <a href="http://www.mediahat.net" target="_blank">{{ site.t[page.lang]['footer']['author'] }} </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</footer>

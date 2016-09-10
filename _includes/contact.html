@@ -1,11 +1,121 @@
-<div class="block-wrapper">
-  <div class="block">
-    <h4>{{ site.t[page.lang]['block']['contact']['title'] }}</h4>
-    <div class="content">
-      <p><img src="/images/map-small.jpg"></p>
-      <p><strong>Lupo Plast SJ</strong> <br>Ogrodowa 17/10<br> 61-821 Poznań</p>
-      <p>Tel. +48 61 8499 730<br> Fax. +48 61 8499 729</p>
-      <p>email: <a href="mailto:pieslak@lupotc.pl">pieslak@lupotc.pl<br></a><a href="{{ site.t[page.lang]['block']['contact']['url'] }}">{{ site.t[page.lang]['block']['contact']['form'] }} ›</a></p>
+<article id="post-440" class="post-440 page type-page status-publish hentry">
+  <section class="section text-normal section-text-no-shadow section-inner-no-shadow section-fullheight section-opaque">
+    <div class="background-media" style="background-image: url('/images/lupo-plast-cargoship.jpg'); background-repeat:no-repeat; background-size:cover; background-attachment:no-scroll; background-position: 50% 0%;"></div>
+    <div class="background-overlay grid-overlay-0" style="background-color: rgba(255,255,255,0.4);"></div>
+    <div class="container container-vertical-middle">
+      <div class="row vertical-middle">
+        <div class="col-md-12 text-center small-screen-default">
+          <div class="col-text-1 text-normal element-top-20 element-bottom-20" data-os-animation="none" data-os-animation-delay="0s">
+            <p><a name="formularz"></a></p>
+          </div>
+          <div class="divider-wrapper" style="visibility:hidden;background-color:#FFFFFF">
+            <div class="visible-xs" style="height:24px;"></div>
+            <div class="visible-sm" style="height:24px;"></div>
+            <div class="visible-md" style="height:24px;"></div>
+            <div class="visible-lg" style="height:24px;"></div>
+          </div>
+          <div class="divider-wrapper" style="visibility:hidden;background-color:#FFFFFF">
+            <div class="visible-xs" style="height:24px;"></div>
+            <div class="visible-sm" style="height:24px;"></div>
+            <div class="visible-md" style="height:24px;"></div>
+            <div class="visible-lg" style="height:24px;"></div>
+          </div>
+          <h1 class="text-default  element-top-20 element-bottom-20 text-light os-animation big regular animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.1s" style="animation-delay: 0.1s;">
+            {{ site.t[page.lang]['page']['contact']['title'] }}
+          </h1>
+          <div class="divider-border divider-border-center element-top-20 element-bottom-20 os-animation animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.1s" style="animation-delay: 0.1s;">
+            <div class="divider-border-inner"></div>
+          </div>
+          <p class="lead text-center center  text-light element-top-20 element-bottom-20 os-animation  animated fadeIn" data-os-animation="fadeIn" data-os-animation-delay="0.15s" style="animation-delay: 0.15s;">
+            {{ site.t[page.lang]['page']['contact']['lead'] }}
+            <br>
+          </p>
+          <div class="divider-wrapper" style="visibility:hidden;background-color:#FFFFFF">
+            <div class="visible-xs" style="height:24px;"></div>
+            <div class="visible-sm" style="height:24px;"></div>
+            <div class="visible-md" style="height:24px;"></div>
+            <div class="visible-lg" style="height:24px;"></div>
+          </div>
+          <div class="row ">
+            <div class="col-md-3 text-default small-screen-default"></div>
+            <div class="col-md-6 text-center small-screen-default">
+              <div role="form" class="wpcf7">
+                <div class="screen-reader-response"></div>
+                <form action="https://www.formingo.co/submit/pieslak@lupotc.pl" method="post" class="wpcf7-form">
+                  <input type="hidden" name="__subject" value="New message from lupotc.pl contact form">
+                  <input type="hidden" name="__redirect" value="{{ site.t[page.lang]['page']['contact']['form']['url'] | prepend: site.url }}">
+                  <div class="row" >
+                    <div class="col-md-6">
+                      <div class="form-group form-icon-group">
+                        <i class="fa fa-user"></i>
+                        <span class="wpcf7-form-control-wrap your-name">
+                          <input type="text" name="your-name" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" placeholder="{{ site.t[page.lang]['page']['contact']['form']['name'] }} *" required>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group form-icon-group">
+                        <i class="fa fa-envelope"></i>
+                        <span class="wpcf7-form-control-wrap your-email">
+                          <input type="email" name="__replyto" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" placeholder="{{ site.t[page.lang]['page']['contact']['form']['email'] }} *" required>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group form-icon-group">
+                    <i class="fa fa-pencil"></i>
+                    <span class="wpcf7-form-control-wrap your-message">
+                      <textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea form-control" placeholder="{{ site.t[page.lang]['page']['contact']['form']['message'] }} *" required></textarea>
+                    </span>
+                  </div>
+                  <p>
+                    <input type="submit" value="{{ site.t[page.lang]['page']['contact']['form']['submit'] }}" class="wpcf7-form-control wpcf7-submit btn btn-primary">
+                  </p>
+                </form>
+              </div>
+            </div>
+            <div class="col-md-3 text-default small-screen-default"></div>
+          </div>
+          <div class="divider-wrapper" style="visibility:hidden;background-color:#FFFFFF">
+            <div class="visible-xs" style="height:24px;"></div>
+            <div class="visible-sm" style="height:24px;"></div>
+            <div class="visible-md" style="height:24px;"></div>
+            <div class="visible-lg" style="height:24px;"></div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+  </section>
+  <section class="section extras text-normal section-text-no-shadow section-inner-no-shadow section-normal section-opaque">
+    <div class="background-overlay grid-overlay-0" style="background-color: rgba(0,0,0,0);"></div>
+    <div class="container-fullwidth container-vertical-top">
+      <div class="row vertical-top">
+        {% for block in site.t[page.lang]['page']['contact']['blocks'] %}
+          <div class="col-md-3 text-center small-screen-default" style="background:{{ block['color'] }};">
+            <div class="box box-round box-medium  element-top-20 element-bottom-20" data-os-animation="none" data-os-animation-delay="0s">
+              <div class="box-dummy"></div>
+              <div class="box-inner grid-overlay-0">
+                <div class="box-animate" data-animation="bounce">
+                  <i class="fa {{ block['icon'] }}" style="color:#ffffff;"></i>
+                </div>
+              </div>
+            </div>
+            <p class="lead bialylink text-default default text-light element-top-20 element-bottom-20" data-os-animation="none" data-os-animation-delay="0s">
+              {{ block['body'] }}
+            </p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  <section class="section text-normal section-text-no-shadow section-inner-no-shadow section-normal section-opaque">
+    <div class="background-overlay grid-overlay-0" style="background-color: rgba(0,0,0,0);"></div>
+    <div class="container-fullwidth container-vertical-default">
+      <div class="row vertical-default">
+        <div class="col-md-12 text-default small-screen-default">
+          <div id="map756" class="google-map element-top-0 element-bottom-0" style="height: 400px; position: relative; overflow: hidden; background-color: rgb(229, 227, 223);" data-os-animation="none" data-os-animation-delay="0s"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</article>

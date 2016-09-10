@@ -1,18 +1,58 @@
-<div class="region-header">
-  <ul class="language-switcher-locale-url">
-    <li class="en"><a href="/en">English</a></li>
-    <li class="pl"><a href="/">Polski</a></li>
-  </ul>
-
-  <ul class="menu">
-    {% for menu in site.t[page.lang]['menu'] %}
-      <li><a {% if page.title  == menu[1].title %}class="active"{% endif %} href="{{menu[1].url}}">{{menu[1].title}}</a></li>
-    {% endfor %}
-  </ul>
+<div class="pace-overlay"></div>
+<div class="top-bar ">
+  <div class="container">
+    <div class="top top-left"></div>
+    <div class="top top-right"></div>
+  </div>
 </div>
-
-<h1 class="logo">
-  <a href="{{ site.t[page.lang]['logo']['url'] }}" title="{{ site.t[page.lang]['logo']['title'] }}">
-      <img src="/images/header.jpg" alt="{{ site.t[page.lang]['logo']['title'] }}" />
-    </a>
-</h1>
+<div id="masthead" class="menu navbar navbar-static-top header-logo-left-menu-right oxy-mega-menu navbar-sticky navbar-mobile-stuck text-caps" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".main-navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="{{ site.t[page.lang]['logo']['url'] }}" class="navbar-brand">
+        <img src="/images/lupo-napis.png" alt="Lupo Plast">
+      </a>
+    </div>
+    <div class="nav-container">
+      <nav class="collapse navbar-collapse main-navbar logo-navbar navbar-right" role="navigation">
+        <div class="menu-container">
+          <ul class="nav navbar-nav">
+            {% for menu in site.t[page.lang]['menu'] %}
+              <li><a href="{{ menu['url'] }}">{{ menu['title'] }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="menu-sidebar">
+          <div id="icl_lang_sel_widget-1" class="sidebar-widget widget_icl_lang_sel_widget">
+            <div id="lang_sel">
+              <ul>
+                <li>
+                  <a href="#" class="lang_sel_sel icl-es">
+                    <img class="iclflag" src="/images/{{ page.lang }}.png" alt="{{ page.lang }}" title="{{ site.t[page.lang]['name'] }}" />
+                    &nbsp;{{ site.t[page.lang]['name'] }}
+                  </a>
+                  <ul>
+                    {% for lang in site.t %}
+                      {% if page.lang != lang[0] %}
+                        <li>
+                          <a href="{{ lang[1]['url'] }}" >
+                            <img class="iclflag" src="/images/{{ lang[0] }}.png" alt="{{ lang[0] }}" title="{{ lang[1]['name'] }}" />
+                            &nbsp;{{ lang[1]['name'] }}
+                          </a>
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
