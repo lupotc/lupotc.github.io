@@ -3,13 +3,8 @@ title: LupoTC
 email: pieslak@lupotc.pl
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://lupotc.pl" # the base hostname & protocol for your site
-
-# Build settings
 markdown: kramdown
-
 include: ['_pages']
-
-# Defaults
 defaults:
   -
     scope:
@@ -33,7 +28,11 @@ defaults:
       path: '_pages/es'
     values:
       lang: 'es'
+sass:
+  sass_dir: 'css/vendor'
+  style: 'compressed'
 
+## Custom
 # Blocks
 blocks:
   our_goods:
