@@ -70,13 +70,13 @@ t:
         url: '/en/'
       -
         title: 'About us'
-        url: '#about-us'
+        url: '/en/#about-us'
       -
         title: 'What we do'
-        url: '#services'
+        url: '/en/#services'
       -
         title: 'Our goods'
-        url: '#portfolio'
+        url: '/en/#portfolio'
       -
         title: 'Contact'
         url: '/en/contact'
@@ -167,13 +167,13 @@ t:
         url: '/'
       -
         title: 'O nas'
-        url: '#about-us'
+        url: '/#about-us'
       -
         title: 'Co robimy'
-        url: '#services'
+        url: '/#services'
       -
         title: 'Nasz towar'
-        url: '#portfolio'
+        url: '/#portfolio'
       -
         title: 'Kontakt'
         url: '/kontakt'
@@ -264,13 +264,13 @@ t:
         url: '/es/'
       -
         title: 'Quiénes somos'
-        url: '#about-us'
+        url: '/es/#about-us'
       -
         title: 'Qué hacemos'
-        url: '#services'
+        url: '/es/#services'
       -
         title: 'Materiales'
-        url: '#portfolio'
+        url: '/es/#portfolio'
       -
         title: 'Contacto'
         url: '/es/contacto'
