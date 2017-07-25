@@ -39,7 +39,7 @@ var map756 = {
   map_scrollable: 'on',
   marker: 'show',
   auto_center: '1',
-  latlng: ['52.087392, 16.662592'],
+  latlng: ['51.979504, 16.470943'],
   center_latlng: '',
   label: ['Lupo Plast'],
   address: '',
