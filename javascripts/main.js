@@ -32,9 +32,10 @@ var oxyThemeData = {
   }
 }
 
+
 var map756 = {
   map_type: 'ROADMAP',
-  map_zoom: '17',
+  map_zoom: '14',
   map_style: 'regular',
   map_scrollable: 'on',
   marker: 'show',
