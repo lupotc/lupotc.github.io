@@ -31,28 +31,3 @@ var oxyThemeData = {
     hoverFadeDelay: 200
   }
 }
-
-var map756 = {
-  map_type: 'ROADMAP',
-  map_zoom: '17',
-  map_style: 'regular',
-  map_scrollable: 'on',
-  marker: 'show',
-  auto_center: '1',
-  latlng: ['51.979504, 16.470943'],
-  center_latlng: '',
-  label: ['Lupo Plast'],
-  address: '',
-  height: '400',
-  extra_classes: '',
-  margin_top: '0',
-  margin_bottom: '0',
-  scroll_animation: 'none',
-  scroll_animation_delay: '0',
-  hidden_on_large: 'off',
-  hidden_on_medium: 'off',
-  hidden_on_small: 'off',
-  hidden_on_xsmall: 'off',
-  marker_link: 'http:\/\/lupotc.pl\/images\/android-chrome-48x48.png',
-  markerURL: 'http:\/\/lupotc.pl\/images\/android-chrome-48x48.png'
-}
