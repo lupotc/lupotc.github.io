@@ -1,341 +1,340 @@
-# Site settings
+---
 title: LupoTC
-email: pieslak@lupmtc.pl
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://lupotc.pl" # the base hostname & protocol for your site
+email: pieslak@lupotc.pl
+baseurl: ''
+url: http://lupotc.pl
 markdown: kramdown
-include: ['_pages']
+include: [_pages]
 defaults:
   -
     scope:
       path: ''
     values:
-      layout: 'default'
-      lang: 'pl'
+      layout: default
+      lang: pl
   -
     scope:
-      path: '_pages/en'
+      path: _pages/en
     values:
-      lang: 'en'
-      # layout: 'default'
+      lang: en
   -
     scope:
-      path: '_pages/pl'
+      path: _pages/pl
     values:
-      lang: 'pl'
+      lang: pl
   -
     scope:
-      path: '_pages/es'
+      path: _pages/es
     values:
-      lang: 'es'
+      lang: es
 sass:
-  sass_dir: 'css/vendor'
-  style: 'compressed'
+  sass_dir: css/vendor
+  style: compressed
 
 ## Custom
 # Blocks
 blocks:
   our_goods:
     -
-      icon: 'green'
-      title: 'PA-6 / Nylon-6'
+      icon: green
+      title: PA-6 / Nylon-6
     -
-      icon: 'red'
-      title: 'PA-6.6 / Nylon 6.6'
+      icon: red
+      title: PA-6.6 / Nylon 6.6
     -
-      icon: 'black'
-      title: 'PA-12 / Nylon-12'
+      icon: black
+      title: PA-12 / Nylon-12
     -
-      icon: 'yellow'
-      title: 'ABS'
+      icon: yellow
+      title: ABS
     -
-      icon: 'blue'
-      title: 'PC'
+      icon: blue
+      title: PC
     -
-      icon: 'white'
-      title: 'PMMA'
+      icon: white
+      title: PMMA
 
 # Translation
 t:
   en:
-    url: '/en/'
-    name: 'English'
+    url: /en/
+    name: English
     meta:
-      title: 'Lupo Plast is in the bussines of reprocessing plastic polymers since 2002.'
-      description: 'Lupo Plast is in the bussines of reprocessing plastic polymers since 2002.'
-      keywords: 'plastics, recycling, polymers, plastic, buy, sell, lupotc, lupo'
+      title: Lupo Plast is in the bussines of reprocessing plastic polymers since 2002.
+      description: Lupo Plast is in the bussines of reprocessing plastic polymers since 2002.
+      keywords: plastics, recycling, polymers, plastic, buy, sell, lupotc, lupo
     menu:
       -
-        title: 'Home'
-        url: '/en/'
+        title: Home
+        url: /en/
       -
-        title: 'About us'
-        url: '/en/#about-us'
+        title: About us
+        url: /en/#about-us
       -
-        title: 'What we do'
-        url: '/en/#services'
+        title: What we do
+        url: /en/#services
       -
-        title: 'Our goods'
-        url: '/en/#portfolio'
+        title: Our goods
+        url: /en/#portfolio
       -
-        title: 'Contact'
-        url: '/en/contact'
+        title: Contact
+        url: /en/contact
     page:
       about_us:
-        title: 'About us'
-        lead: 'Since 2002 Lupo Plast has been actively involved on the international trade market of post-industrial plastic waste. At Lupo Plast we buy, collect, segregate and process post-industrial plastic materials, which are the sole basis of our trading business. We posses all the required permits for the storing and processing of plastic materials. We are proud to share business relationships with companies from all around the globe.'
+        title: About us
+        lead: Since 2002 Lupo Plast has been actively involved on the international trade market of post-industrial plastic waste. At Lupo Plast we buy, collect, segregate and process post-industrial plastic materials, which are the sole basis of our trading business. We posses all the required permits for the storing and processing of plastic materials. We are proud to share business relationships with companies from all around the globe.
         body: 'It seems nowadays the word “innovation” is in everyone’s mouth. At Lupo Plast we constantly expand and strengthen our business relying on two essential values: honesty and trust, which beget the reliability that are seeking. Having been in the trading business for decades, we bind our greatest ambitions and satisfactions to a culture of trust and reciprocal benefits in our business relationships.<br><br>We scrupulously choose our business partners. This is the approach that allows us to occupy a stable and secure market position on a global scale.'
       what_we_do:
-        title: 'What we do'
-        lead: 'We buy and sell unprocessed and granulated post-industrial plastic waste, mainly polyamides (PA-6, PA-6.6, PA-12), polycarbonates (PC), ABS, PC/ABS and PMMA.'
+        title: What we do
+        lead: We buy and sell unprocessed and granulated post-industrial plastic waste, mainly polyamides (PA-6, PA-6.6, PA-12), polycarbonates (PC), ABS, PC/ABS and PMMA.
         middle:
           blocks:
             -
-              icon: 'storage'
-              title: 'Storage'
-              body: 'Our facilities include the proper storage space and conditions to maximize the availability of our materials.'
+              icon: storage
+              title: Storage
+              body: Our facilities include the proper storage space and conditions to maximize the availability of our materials.
             -
-              icon: 'trade'
-              title: 'Trade'
-              body: 'We guarantee an accurate description of our available stock in accordance to its quality. We are also happy to arrange transport at optimal rates.'
+              icon: trade
+              title: Trade
+              body: We guarantee an accurate description of our available stock in accordance to its quality. We are also happy to arrange transport at optimal rates.
             -
-              icon: 'segregation'
-              title: 'Segregation'
-              body: 'Mixed batches are no trouble for us. At our processing facilities we segregate plastic materials in the means of offering the best possible parameters of purity.'
+              icon: segregation
+              title: Segregation
+              body: Mixed batches are no trouble for us. At our processing facilities we segregate plastic materials in the means of offering the best possible parameters of purity.
             -
-              icon: 'processing'
-              title: 'Processing'
-              body: 'Lupo Plast posses the technology and processing capabilities necessary to achieve the expected parameters of the product, thus making us stand out amongst traditional traders.'
+              icon: processing
+              title: Processing
+              body: Lupo Plast posses the technology and processing capabilities necessary to achieve the expected parameters of the product, thus making us stand out amongst traditional traders.
         bottom:
           block:
-            body: 'Are you in the post-industrial plastic waste trading business?<br><br>Are you a manufacturer or vendor in search of post-industrial plastic waste buyers?<br><br>Do you have a business proposal, specific inquiry or question?'
+            body: Are you in the post-industrial plastic waste trading business?<br><br>Are you a manufacturer or vendor in search of post-industrial plastic waste buyers?<br><br>Do you have a business proposal, specific inquiry or question?
           link:
-            title: 'Get in touch with us!'
-            url: '/en/contact/'
+            title: Get in touch with us!
+            url: /en/contact/
       our_goods:
-        title: 'Our goods'
+        title: Our goods
       contact:
-        title: 'Get in touch with us!'
-        lead: 'Are you in the post-industrial plastic waste trading business? Are you a manufacturer or vendor in search of post-industrial plastic waste buyers? Do you have a business proposal, specific inquiry or question?'
+        title: Get in touch with us!
+        lead: Are you in the post-industrial plastic waste trading business? Are you a manufacturer or vendor in search of post-industrial plastic waste buyers? Do you have a business proposal, specific inquiry or question?
         blocks:
           -
-            icon: 'fa-building'
-            color: 'rgba(14, 89, 184, 0.9)'
-            body: 'Office:<br> Lupo Plast S.J.<br> Ogrodowa 17/10<br> 61-821 Poznań, Poland'
+            icon: fa-building
+            color: rgba(14, 89, 184, 0.9)
+            body: Office:<br> Lupo Plast S.J.<br> Ogrodowa 17/10<br> 61-821 Poznań, Poland
           -
-            icon: 'fa-truck'
-            color: 'rgba(14, 89, 184, 0.8)'
-            body: 'Production:<br> Morownicka 1C<br> 64-030 Bronikowo, Poland'
+            icon: fa-truck
+            color: rgba(14, 89, 184, 0.8)
+            body: Production:<br> Morownicka 1C<br> 64-030 Bronikowo, Poland
           -
-            icon: 'fa-envelope'
-            color: 'rgba(14, 89, 184, 0.7)'
-            body: 'Contact us by email <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%70%69%65%73%6C%61%6B%40%6C%75%70%6F%74%63%2E%70%6C">pieslak(at)lupotc.pl</a>'
+            icon: fa-envelope
+            color: rgba(14, 89, 184, 0.7)
+            body: Contact us by email <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%70%69%65%73%6C%61%6B%40%6C%75%70%6F%74%63%2E%70%6C">pieslak(at)lupotc.pl</a>
           -
-            icon: 'fa-phone'
-            color: 'rgba(14, 89, 184, 0.6)'
+            icon: fa-phone
+            color: rgba(14, 89, 184, 0.6)
             body: 'Tel.: +48 61 8499 730<br> Fax: +48 61 8499 729<br> Mobile (office): +48 605 676 715<br> Mobile (production): +48 605 676 710'
       privacy:
-        url: '/en/privacy-policy/'
+        url: /en/privacy-policy/
       permits:
-        url: '/en/permits'
+        url: /en/permits
     footer:
       blocks:
         -
-          title: 'Lupo Plast S.J.'
-          body: 'Post-industrial plastic, granules, pellets, buy & sell.'
+          title: Lupo Plast S.J.
+          body: Post-industrial plastic, granules, pellets, buy & sell.
         -
-          title: 'Where to find us'
-          body: '<p>Office:<br /> Ogrodowa 17/10, 61-821 Poznań</p> <p>Production facilities:<br /> Morownicka 1C, 64-030 Bronikowo, Poland</p>'
+          title: Where to find us
+          body: <p>Office:<br /> Ogrodowa 17/10, 61-821 Poznań</p> <p>Production facilities:<br /> Morownicka 1C, 64-030 Bronikowo, Poland</p>
         -
-          title: 'Phone contact'
+          title: Phone contact
           body: '<p>Tel.: +48 61 8499 730<br /> Fax: +48 61 8499 729<br /> Mobile (office): +48 605 676 715<br /> Mobile (production): +48 605 676 710</p>'
-      privacy: 'Privacy policy'
-      permits: 'Permits'
+      privacy: Privacy policy
+      permits: Permits
   pl:
-    url: '/'
-    name: 'Polski'
+    url: /
+    name: Polski
     meta:
-      title: 'Lupo Plast - skup i sprzedaż tworzyw sztucznych, przemiałów i odpadów | Lupo Plast'
-      description: 'Firma Lupo Plast od wielu lat aktywnie działa na rynkach międzynarodowych i krajowym zajmując się na szeroką skalę skupem odpadów tworzyw sztucznych ich segregacją oraz ich przerobem na aglomeraty i przemiały.'
-      keywords: 'tworzywa sztuczne, przemiały, odpady, skup, sprzedaż, lupotc, lupo'
+      title: Lupo Plast - skup i sprzedaż tworzyw sztucznych, przemiałów i odpadów | Lupo Plast
+      description: Firma Lupo Plast od wielu lat aktywnie działa na rynkach międzynarodowych i krajowym zajmując się na szeroką skalę skupem odpadów tworzyw sztucznych ich segregacją oraz ich przerobem na aglomeraty i przemiały.
+      keywords: tworzywa sztuczne, przemiały, odpady, skup, sprzedaż, lupotc, lupo
     menu:
       -
-        title: 'Start'
-        url: '/'
+        title: Start
+        url: /
       -
-        title: 'O nas'
-        url: '/#about-us'
+        title: O nas
+        url: /#about-us
       -
-        title: 'Co robimy'
-        url: '/#services'
+        title: Co robimy
+        url: /#services
       -
-        title: 'Nasz towar'
-        url: '/#portfolio'
+        title: Nasz towar
+        url: /#portfolio
       -
-        title: 'Kontakt'
-        url: '/kontakt'
+        title: Kontakt
+        url: /kontakt
     page:
       about_us:
-        title: 'O nas'
-        lead: 'Firma Lupo Plast od 2002 roku aktywnie działa na rynkach międzynarodowych i krajowym zajmując się na szeroką skalę skupem odpadów tworzyw sztucznych, ich segregacją oraz ich przerobem na aglomeraty i przemiały. Posiadamy niezbędne zezwolenia na składowanie i przerób surowców z tworzyw sztucznych. Współpracujemy z firmami z całego świata.'
+        title: O nas
+        lead: Firma Lupo Plast od 2002 roku aktywnie działa na rynkach międzynarodowych i krajowym zajmując się na szeroką skalę skupem odpadów tworzyw sztucznych, ich segregacją oraz ich przerobem na aglomeraty i przemiały. Posiadamy niezbędne zezwolenia na składowanie i przerób surowców z tworzyw sztucznych. Współpracujemy z firmami z całego świata.
         body: 'W czasach, gdy przedsiębiorstwa nadgorliwie powołują się do „innowacyjności”, Lupo Plast wciąż opiera swoją działalność na dwóch kluczowych wartościach: uczciwości i niezawodności. Jako przedsiębiorcy zajmujemy się handlem towarami od wielu dekad, dlatego też nasze największe ambicje i satysfakcje wynikają ze współtworzenia kultury zaufania i wzajemnej korzyści z partnerami biznesowymi.<br><br>Skrupulatnie wybieramy kontrahentów, z którymi podejmujemy współpracę, dzięki czemu Lupo Plast zajmuje stabilną i bezpieczną pozycję na międzynarodowym rynku obrotu i przerobu tworzyw sztucznych.'
       what_we_do:
-        title: 'Co robimy'
+        title: Co robimy
         lead: 'Kupujemy i sprzedajemy odpady i przemiał z następujących materiałów: poliamidy (PA-6, PA-6.6, PA-12), poliwęglany (PC), ABS, PC/ABS, PMMA.'
         middle:
           blocks:
             -
-              icon: 'storage'
-              title: 'Skup'
-              body: 'Adekwatne rozmiary naszego zakładu produkcyjnego zapewniają nam możliwość magazynowania towaru dla większej dostępności.'
+              icon: storage
+              title: Skup
+              body: Adekwatne rozmiary naszego zakładu produkcyjnego zapewniają nam możliwość magazynowania towaru dla większej dostępności.
             -
-              icon: 'trade'
-              title: 'Sprzedaż'
-              body: 'Zapewniamy najwyższą zgodność jakości produktu z opisem i organizujemy transport na najdogodniejszych warunkach.'
+              icon: trade
+              title: Sprzedaż
+              body: Zapewniamy najwyższą zgodność jakości produktu z opisem i organizujemy transport na najdogodniejszych warunkach.
             -
-              icon: 'segregation'
-              title: 'Segregacja'
-              body: 'Mieszane towary nie stanowią dla nas kłopotu. W zakładzie produkcyjnym Lupo Plast segregujemy tworzywa sztuczne w celu zapewnienia wyższych parametrów czystości towaru.'
+              icon: segregation
+              title: Segregacja
+              body: Mieszane towary nie stanowią dla nas kłopotu. W zakładzie produkcyjnym Lupo Plast segregujemy tworzywa sztuczne w celu zapewnienia wyższych parametrów czystości towaru.
             -
-              icon: 'processing'
-              title: 'Przerób'
-              body: 'Zakład produkcyjny Lupo Plast dysponuje infrastrukturą, za pomocą której przerabiamy tworzywa sztuczne w celu uzyskania pożądanej formy towaru.'
+              icon: processing
+              title: Przerób
+              body: Zakład produkcyjny Lupo Plast dysponuje infrastrukturą, za pomocą której przerabiamy tworzywa sztuczne w celu uzyskania pożądanej formy towaru.
         bottom:
           block:
-            body: 'Czy handlujesz odpadami z tworzyw sztucznych?<br><br>Czy jesteś producentem i szukasz kupców odpadów z tworzyw sztucznych?<br><br>Czy masz konkretną ofertę lub zapytania ofertowego?'
+            body: Czy handlujesz odpadami z tworzyw sztucznych?<br><br>Czy jesteś producentem i szukasz kupców odpadów z tworzyw sztucznych?<br><br>Czy masz konkretną ofertę lub zapytania ofertowego?
           link:
-            title: 'Współpracuj z nami!'
-            url: '/kontakt/'
+            title: Współpracuj z nami!
+            url: /kontakt/
       our_goods:
-        title: 'Nasz towar'
+        title: Nasz towar
       contact:
-        title: 'Zapraszamy do współpracy!'
-        lead: 'Czy handlujesz odpadami z tworzyw sztucznych? Jesteś producentem i szukasz kupców odpadów z tworzyw sztucznych? Masz konkretną ofertę lub zapytanie ofertowe?'
+        title: Zapraszamy do współpracy!
+        lead: Czy handlujesz odpadami z tworzyw sztucznych? Jesteś producentem i szukasz kupców odpadów z tworzyw sztucznych? Masz konkretną ofertę lub zapytanie ofertowe?
         blocks:
           -
-            icon: 'fa-building'
-            color: 'rgba(14, 89, 184, 0.9)'
-            body: 'Biuro:<br> Lupo Plast S.J.<br> Ogrodowa 17/10<br> 61-821 Poznań'
+            icon: fa-building
+            color: rgba(14, 89, 184, 0.9)
+            body: Biuro:<br> Lupo Plast S.J.<br> Ogrodowa 17/10<br> 61-821 Poznań
           -
-            icon: 'fa-truck'
-            color: 'rgba(14, 89, 184, 0.8)'
-            body: 'Zakład produkcyjny:<br> Morownicka 1C<br> 64-030 Bronikowo'
+            icon: fa-truck
+            color: rgba(14, 89, 184, 0.8)
+            body: Zakład produkcyjny:<br> Morownicka 1C<br> 64-030 Bronikowo
           -
-            icon: 'fa-envelope'
-            color: 'rgba(14, 89, 184, 0.7)'
-            body: 'Skontaktuj się z nami poprzez email <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%70%69%65%73%6C%61%6B%40%6C%75%70%6F%74%63%2E%70%6C">pieslak(at)lupotc.pl</a>'
+            icon: fa-envelope
+            color: rgba(14, 89, 184, 0.7)
+            body: Skontaktuj się z nami poprzez email <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%70%69%65%73%6C%61%6B%40%6C%75%70%6F%74%63%2E%70%6C">pieslak(at)lupotc.pl</a>
           -
-            icon: 'fa-phone'
-            color: 'rgba(14, 89, 184, 0.6)'
+            icon: fa-phone
+            color: rgba(14, 89, 184, 0.6)
             body: 'Tel.: +48 61 8499 730<br> Fax: +48 61 8499 729<br> Kom. (biuro): +48 605 676 715<br> Kom. (produkcja): +48 605 676 710'
       privacy:
-        url: '/polityka-prywatnosci/'
+        url: /polityka-prywatnosci/
       permits:
-        url: '/zezwolenia/'
+        url: /zezwolenia/
     footer:
       blocks:
         -
-          title: 'Lupo Plast S.J.'
-          body: 'Tworzywa sztuczne, przemiały, odpady, skup, sprzedaż.'
+          title: Lupo Plast S.J.
+          body: Tworzywa sztuczne, przemiały, odpady, skup, sprzedaż.
         -
-          title: 'Gdzie nas znaleźć'
-          body: '<p>Biuro:<br> Ogrodowa 17/10, 61-821 Poznań</p> <p>Zakład produkcyjny:<br> Morownicka 1C, 64-030 Bronikowo</p>'
+          title: Gdzie nas znaleźć
+          body: <p>Biuro:<br> Ogrodowa 17/10, 61-821 Poznań</p> <p>Zakład produkcyjny:<br> Morownicka 1C, 64-030 Bronikowo</p>
         -
-          title: 'Kontakt telefoniczny'
+          title: Kontakt telefoniczny
           body: '<p>Tel.: +48 61 8499 730<br> Fax: +48 61 8499 729<br> Kom. (biuro): +48 605 676 715<br> Kom. (produkcja): +48 605 676 710</p>'
-      privacy: 'Polityka prywatności'
-      permits: 'Zezwolenia'
+      privacy: Polityka prywatności
+      permits: Zezwolenia
   es:
-    url: '/es/'
-    name: 'Español'
+    url: /es/
+    name: Español
     meta:
-      title: 'Lupo Plast is in the bussines of reprocessing plastic polymers since 2002.'
-      description: 'Lupo Plast is in the bussines of reprocessing plastic polymers since 2002.'
-      keywords: 'plastics, recycling, polymers, plastic, buy, sell, lupotc, lupo'
+      title: Lupo Plast is in the bussines of reprocessing plastic polymers since 2002.
+      description: Lupo Plast is in the bussines of reprocessing plastic polymers since 2002.
+      keywords: plastics, recycling, polymers, plastic, buy, sell, lupotc, lupo
     menu:
       -
-        title: 'Inicio'
-        url: '/es/'
+        title: Inicio
+        url: /es/
       -
-        title: 'Quiénes somos'
-        url: '/es/#about-us'
+        title: Quiénes somos
+        url: /es/#about-us
       -
-        title: 'Qué hacemos'
-        url: '/es/#services'
+        title: Qué hacemos
+        url: /es/#services
       -
-        title: 'Materiales'
-        url: '/es/#portfolio'
+        title: Materiales
+        url: /es/#portfolio
       -
-        title: 'Contacto'
-        url: '/es/contacto'
+        title: Contacto
+        url: /es/contacto
     page:
       about_us:
-        title: 'Sobre Lupo Plast'
-        lead: 'Lupo Plast desde 2002 gestiona de manera activa su participación en el mercado internacional de comercio, segregación y procesamiento de desechos plásticos de origen industrial. Poseemos los permisos necesarios para la acumulación y procesamientos de nuestra materia prima. Trabajamos y colaboramos con empresas de todo el mundo.'
+        title: Sobre Lupo Plast
+        lead: Lupo Plast desde 2002 gestiona de manera activa su participación en el mercado internacional de comercio, segregación y procesamiento de desechos plásticos de origen industrial. Poseemos los permisos necesarios para la acumulación y procesamientos de nuestra materia prima. Trabajamos y colaboramos con empresas de todo el mundo.
         body: 'En tiempos en los que la palabra “innovación” parece estar en boca de todos, Lupo Plast permanentemente basa sus actividades en dos valores esenciales: honestidad y fiabilidad. Como empresarios nos dedicamos al comercio de mercadería desde hace décadas y es por eso que nuestras más grandes ambiciones y satisfacciones son el resultado del mantenimiento de una cultura de confianza y beneficio mutuo con nuestros clientes y proveedores.<br><br>Elegimos las empresas con las que colaboramos de forma sumamente escrupulosa, gracias a lo cual Lupo Plast retiene una posición estable y segura en el mercado internacional de materiales plásticos.'
       what_we_do:
-        title: 'Qué hacemos'
+        title: Qué hacemos
         lead: 'Compramos y vendemos desechos y granulados de los siguientes materiales: poliamidas (PA-6, PA-6.6, PA-12), policarbonatos (PC), ABS, PC/ABS, PMMA.'
         middle:
           blocks:
             -
-              icon: 'storage'
-              title: 'Almacenamiento'
-              body: 'Las adecuadas dimensiones de nuestra planta nos garantizan la capacidad de almacenamiento suficiente para poder ofrecer una óptima disponibilidad de nuestros materiales.'
+              icon: storage
+              title: Almacenamiento
+              body: Las adecuadas dimensiones de nuestra planta nos garantizan la capacidad de almacenamiento suficiente para poder ofrecer una óptima disponibilidad de nuestros materiales.
             -
-              icon: 'trade'
-              title: 'Venta'
-              body: 'Garantizamos precisas descripciones de nuestros productos en concordancia con la calidad de la partida ofrecida. Disponemos de la experiencia y contactos necesarios para organizar un transporte seguro y rápido a un costo conveniente.'
+              icon: trade
+              title: Venta
+              body: Garantizamos precisas descripciones de nuestros productos en concordancia con la calidad de la partida ofrecida. Disponemos de la experiencia y contactos necesarios para organizar un transporte seguro y rápido a un costo conveniente.
             -
-              icon: 'segregation'
-              title: 'Segregación'
-              body: 'Los materiales mezclados no representan para nosotros un problema. En nuestra planta de procesamiento segregamos materiales plásticos a fin de obtener los parámetros de pureza esperados.'
+              icon: segregation
+              title: Segregación
+              body: Los materiales mezclados no representan para nosotros un problema. En nuestra planta de procesamiento segregamos materiales plásticos a fin de obtener los parámetros de pureza esperados.
             -
-              icon: 'processing'
-              title: 'Procesamiento'
-              body: 'En la planta de procesamiento de Lupo Plast disponemos de la infraestructura y tecnología necesarias para transformar nuestros materiales logrando la forma y parámetros deseados por nuestros clientes.'
+              icon: processing
+              title: Procesamiento
+              body: En la planta de procesamiento de Lupo Plast disponemos de la infraestructura y tecnología necesarias para transformar nuestros materiales logrando la forma y parámetros deseados por nuestros clientes.
         bottom:
           block:
-            body: '¿Te dedicas al comercio de desechos plásticos de origen industrial?<br><br>¿Eres productor y buscas compradores de desechos plásticos?<br><br>¿Tienes una oferta concreta o alguna pregunta específica?'
+            body: ¿Te dedicas al comercio de desechos plásticos de origen industrial?<br><br>¿Eres productor y buscas compradores de desechos plásticos?<br><br>¿Tienes una oferta concreta o alguna pregunta específica?
           link:
-            title: '¡Ponte en contacto con nosotros!'
-            url: '/es/contacto/'
+            title: ¡Ponte en contacto con nosotros!
+            url: /es/contacto/
       our_goods:
-        title: 'Nuestros materiales'
+        title: Nuestros materiales
       contact:
-        title: '¡Ponte en contacto con nosotros!'
-        lead: '¿Te dedicas al comercio de desechos plásticos de origen industrial? ¿Eres productor y buscas compradores de desechos plásticos? ¿Tienes una oferta concreta o alguna pregunta específica?'
+        title: ¡Ponte en contacto con nosotros!
+        lead: ¿Te dedicas al comercio de desechos plásticos de origen industrial? ¿Eres productor y buscas compradores de desechos plásticos? ¿Tienes una oferta concreta o alguna pregunta específica?
         blocks:
           -
-            icon: 'fa-building'
-            color: 'rgba(14, 89, 184, 0.9)'
-            body: 'Oficina:<br> Lupo Plast S.J.<br> Ogrodowa 17/10<br> 61-821 Poznań, Polonia'
+            icon: fa-building
+            color: rgba(14, 89, 184, 0.9)
+            body: Oficina:<br> Lupo Plast S.J.<br> Ogrodowa 17/10<br> 61-821 Poznań, Polonia
           -
-            icon: 'fa-truck'
-            color: 'rgba(14, 89, 184, 0.8)'
-            body: 'Producción:<br> Morownicka 1C<br> 64-030 Bronikowo, Polonia'
+            icon: fa-truck
+            color: rgba(14, 89, 184, 0.8)
+            body: Producción:<br> Morownicka 1C<br> 64-030 Bronikowo, Polonia
           -
-            icon: 'fa-envelope'
-            color: 'rgba(14, 89, 184, 0.7)'
-            body: 'Contáctanos a través del email <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%70%69%65%73%6C%61%6B%40%6C%75%70%6F%74%63%2E%70%6C">pieslak(at)lupotc.pl</a>'
+            icon: fa-envelope
+            color: rgba(14, 89, 184, 0.7)
+            body: Contáctanos a través del email <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%70%69%65%73%6C%61%6B%40%6C%75%70%6F%74%63%2E%70%6C">pieslak(at)lupotc.pl</a>
           -
-            icon: 'fa-phone'
-            color: 'rgba(14, 89, 184, 0.6)'
+            icon: fa-phone
+            color: rgba(14, 89, 184, 0.6)
             body: 'Tel.: +48 61 8499 730<br> Fax: +48 61 8499 729<br> Móvil (oficina): +48 605 676 715<br> Móvil (producción): +48 605 676 710'
       privacy:
-        url: '/es/politica-de-privacidad/'
+        url: /es/politica-de-privacidad/
       permits:
-        url: '/es/permisos/'
+        url: /es/permisos/
     footer:
       blocks:
         -
-          title: 'Lupo Plast S.J.'
-          body: 'Desechos plásticos, compra & venta, almacenamiento.'
+          title: Lupo Plast S.J.
+          body: Desechos plásticos, compra & venta, almacenamiento.
         -
-          title: 'Dónde encontrarnos'
-          body: '<p>Oficina:<br> Ogrodowa 17/10, 61-821 Poznań, Polonia</p> <p>Planta de producción:<br> Morownicka 1C, 64-030 Bronikowo, Polonia</p>'
+          title: Dónde encontrarnos
+          body: <p>Oficina:<br> Ogrodowa 17/10, 61-821 Poznań, Polonia</p> <p>Planta de producción:<br> Morownicka 1C, 64-030 Bronikowo, Polonia</p>
         -
-          title: 'Contacto telefónico'
+          title: Contacto telefónico
           body: '<p>Tel.: +48 61 8499 730<br> Fax: +48 61 8499 729<br> Móvil (oficina): +48 605 676 715<br> Móvil (producción): +48 605 676 710</p>'
-      privacy: 'Política de privacidad'
-      permits: 'Permisos'
+      privacy: Política de privacidad
+      permits: Permisos
